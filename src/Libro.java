@@ -44,15 +44,15 @@ public class Libro {
     public boolean prestar(){
         if(disponible){
             disponible = false;
-            System.out.println("el libro\"" + titulo + "\"fue prestado");
+            System.out.println("el libro:\"" + titulo + "\"" + " " + "fue prestado");
             return true;
         }else{
-            System.out.println("el libro \"" + titulo + "\"ya esta prestado");
+            System.out.println("el libro:\"" + titulo + "\"" + "" + "ya esta prestado");
             return false;
         }
     }
     public void devolver(){
         disponible = true;
-        System.out.println("el libro \"" + titulo + "\"ya esta disponible");
+        System.out.println("el libro:\"" + titulo + "\"" + " " + "ya esta disponible");
     } 
 } 

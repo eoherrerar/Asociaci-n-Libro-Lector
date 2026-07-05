@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         //----Libros-----
-        Libro libro1 = new Libro("cien aNos de soledad", "Gabriel Garcia Maquez" );
+        Libro libro1 = new Libro("cien años de soledad", "Gabriel Garcia Maquez" );
         Libro libro2 = new Libro("El principito", "Antoine de Saint-Exupéry" );
         Libro libro3 = new Libro(" El universo en una cascara de nuez", "Sthepen Hawking" );
         Libro libro4 = new Libro("El extraNo caso del doctor Jekyll y el senor Hyde", "Robert Louis Stevenson" );

@@ -45,7 +45,7 @@ public void devolverLibro(Libro libro){
 }
 public void mostrarEstado (){
     String Estado = (libroActual != null) ? libroActual.getTitulo() : "sin libro";
-    System.out.println("Lector : " + nombre + "," + "libro " + Estado);
+    System.out.println("Lector: " + nombre + " , " + "Libro: " + Estado);
 }
 
 }
